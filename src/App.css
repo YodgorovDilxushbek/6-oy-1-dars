@@ -104,8 +104,9 @@ body {
   max-width: 1160px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 3rem;
-  padding-left: 3rem;
+  
+  padding-left: 140px;
+  padding-right: 140px;
 }
 .main-content {
   flex-grow: 1;
@@ -164,7 +165,7 @@ body {
 .hero-section__title {
   font-size: 10rem;
   line-height: 1;
-  padding-left: 40px;
+  
 }
 .text-highlight {
   color: var(--primary-light-color);
@@ -189,7 +190,7 @@ font-size: 20px;
 .features-section {
   background-color: var(--secondary-sacramento-state-green-color);
   background-image: url("./assets/images/features-bottom.svg");
-  padding: 14rem 0;
+  padding-right: 290px;
   background-repeat: no-repeat;
   background-position: right bottom;
 }
@@ -233,4 +234,3 @@ font-size: 20px;
   opacity: 0.8;
   mix-blend-mode: normal;
 }
-  
